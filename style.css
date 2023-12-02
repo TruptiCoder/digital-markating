@@ -1,0 +1,104 @@
+*{
+    font-family: 'open sans';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(77, 77, 134);
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+}
+
+.logoname{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.logoname p{
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.logo img{
+    height: 50px;
+    padding: 3px;
+}
+
+.opt{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.opt a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* page 1 */
+.firstpage{
+    display: flex;
+    width: 100%;
+    height: 570px;
+}
+
+.heading{
+    width: 42%;
+    height: 100%;
+    padding: 80px;
+}
+
+.drawing{
+    width: 57%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.drawing img{
+    transform: scale(1.2);
+}
+
+.heading h1{
+    font-size: 50px;
+    color: rgb(147, 224, 255);
+    font-weight: 600;
+    padding: 10px;
+}
+
+.heading h1 span{
+    color: white;
+}
+
+.heading p{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.firstbtn{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 180px;
+    background-color: rgb(147, 224, 255);
+    border: none;
+    color: rgb(77, 77, 134);
+    font-weight: 500;
+}
