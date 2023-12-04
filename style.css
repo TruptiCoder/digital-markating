@@ -103,6 +103,8 @@ body{
     font-weight: 500;
 }
 
+/* second page */
+
 .secondpage{
     height: 634px;
     width: 100%;
@@ -166,6 +168,8 @@ body{
     font-size: 25px;
     color: black;
 }
+
+/* Third page */
 
 .thirdpage{
     display: flex;
