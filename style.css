@@ -24,6 +24,7 @@ body {
   align-items: center;
   width: 40%;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .logoname p {
@@ -47,6 +48,18 @@ body {
   text-decoration: none;
   color: white;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.opt a .line{
+  border: solid rgb(147, 224, 255) 1px;
+  border-radius: 50%;
+  display: none;
+  width: 100%;
+  align-self: center;
+  animation-name: line;
+  animation-duration: 0.5s;
 }
 
 /* page 1 */
@@ -454,6 +467,7 @@ body {
 .footer-box span{
   font-size: 25px;
   padding-bottom: 20px;
+  padding-top: 15px;
 }
 
 .footer-box a{
@@ -489,4 +503,31 @@ body {
   text-align: center;
   padding: 15px;
   font-weight: 600;
+}
+
+button{
+  transition: all ease 0.3s , border linear 0s;
+}
+
+/* effects */
+
+button:hover{
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+}
+
+.opt a:hover{
+  .line{
+    display: block;
+  }
+}
+
+@keyframes line{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
 }
