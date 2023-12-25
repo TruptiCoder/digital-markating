@@ -346,7 +346,7 @@ body {
 
 .s-box{
   width: 40%;
-  height: 95%;
+  height: 80%;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 15px;
 }
@@ -366,7 +366,127 @@ body {
 }
 
 .s-box p{
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   padding: 0 15px 15px 15px;
+}
+
+/* footer */
+
+.footer1{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px;
+}
+
+.footer1 h3{
+  color: rgb(147, 224, 255);
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.footer1 p{
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 150px;
+}
+
+.search{
+  width: 40%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.377);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.search input{
+  border: transparent;
+  width: 75%;
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.search button{
+  width: 25%;
+  height: 80%;
+  margin: 5px;
+  border: transparent;
+  background-color: rgb(147, 224, 255);
+  border-radius: 30px;
+  color: rgb(77, 77, 134);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+::placeholder{
+  color: white;
+}
+
+.footer2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  padding: 50px;
+}
+
+.footer-box{
+  height: 90%;
+  width: 20%;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-box span{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.footer-box a{
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.footer-box p{
+  font-size: 20px;
+}
+
+.logof{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logof span{
+  padding-top: 15px;
+}
+
+.logof img{
+  height: 50px;
+}
+
+.footer3{
+  background-color: rgb(147, 224, 255);
+  color: rgb(77, 77, 134);
+  font: 25px;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
 }
